@@ -10,7 +10,7 @@ import javax.ws.rs.Produces;
 @RequestScoped
 @Path("/insult")
 public class InsultResource {
-// Comment test
+// Comment test 2
 	@GET()
 	@Produces("application/json")
 	public HashMap<String,String> getInsult() {
